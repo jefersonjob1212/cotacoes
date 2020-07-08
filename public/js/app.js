@@ -17,7 +17,7 @@ cotacoesForm.addEventListener('submit', (e) => {
         return;
     }
 
-    fetch(`http://localhost:3000/cotacoes?ativo=${ativo}`).then((response) => {
+    fetch(`/cotacoes?ativo=${ativo}`).then((response) => {
     response.json().then((data) => {
         if(data.error) {
             mainMessage.innerHTML = `<span style="color:red;">Houve um erro na execução</span>`
