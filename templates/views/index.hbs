@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Cotações</title>
+</head>
+<body>
+    <div class="main-content">
+        {{> header}}
+
+        <p>Procure por um ativo</p>
+        <form>
+            <input type="text" placeholder="Código do ativo">
+            <button>Buscar</button>
+        </form>
+
+        <h3></h3>
+        <p id="open"></p>
+        <p id="close"></p>
+        <p id="high"></p>
+        <p id="low"></p>
+
+    </div>
+    {{> footer}}
+</body>
+<script src="/js/app.js"></script>
+</html>
