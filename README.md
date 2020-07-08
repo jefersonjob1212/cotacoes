@@ -1,7 +1,7 @@
-#Projeto Cotações
+# Projeto Cotações
 
-#para executar configure as dependências:
+# para executar configure as dependências:
 `npm i`
 
-#depois
+# depois
 `npm start`
